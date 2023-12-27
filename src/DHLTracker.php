@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Guti\DhlTracker;
 use Exception;
 
 class DHLTracker {

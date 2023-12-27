@@ -1,10 +1,21 @@
 {
-  "autoload": {
-    "psr-4": {
-      "App\\": "src/"
+    "name": "guti/dhl-tracker",
+    "description": "The DHLTracker PHP package provides an easy-to-use, object-oriented interface for tracking shipments using the DHL API.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Guti\\DhlTracker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guti",
+            "email": "gutifer666@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-curl": "*"
     }
-  },
-  "require": {
-    "ext-curl": "*"
-  }
 }
